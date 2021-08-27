@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./form.css">
+    <title>Form</title>
+</head>
+<body>
+  <form>
+      <h2 style="color: rgb(50, 53, 205);" >Example Form</h2>
+        <form action="subha.php">
+      <div><br>
+          <label for="FirstForm"> FirstName </label>
+       <input type="text" name="FirstName " id="FirstName">
+    </div>
+    <div><br>
+        <label for="LastName">Last Name</label>
+        <input type="text" name="LastName " id="LastName">
+     </div> 
+     <div><br>
+        <label for="DOB">DOB</label>
+        <input type="date" name="DOB " id="DOB">
+     </div>
+     <div><br>
+        <label for="Gender">Gender</label>
+        Male <input type="radio" name="Male " value="Male" id="Gender">
+        Female <input type="radio" name="FeMale " value="Female" id="Gender">
+        Others <input type="radio" name="Other " value="Others" id="Gender">
+     </div>
+     <div><br>
+        <label for="Roll No">Roll No</label>
+        <input type="number" name="Roll No " id="Roll No">
+     </div>
+     <div><br>
+        <label for="City">City Name</label><br><br>
+        Paradeep<input type="checkbox" name="Paradeep" id="City" checked>
+        cuttack<input type="checkbox" name="cuttack" id="City">
+        Bhubaneswar<input type="checkbox" name="Bhubaneswar" id="City" >
+     </div>
+     <div><br>
+        <label for="Liked Car">Liked car</label>  
+        <select name="cars" id="cars">
+            <option>Yaris</option>
+            <option>Innova</option>
+            <option>Fortuner</option>
+        </select>
+    </div>
+     <div><br>
+         <div>
+         <label for="Feedback">Feedback</label>
+         </div> 
+         <textarea rows="5" cols="20"></textarea>
+     </div>
+     <input type="Submit" value="Submit">
+     <input type="Reset" value="Reset">
+
+  </form>  
+</body>
+</html>
